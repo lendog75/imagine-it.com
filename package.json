@@ -1,7 +1,7 @@
 {
-  "name": "shinobi",
+  "name": "Imagine-It",
   "version": "0.25.0",
-  "description": "field apps and warehouse app",
+  "description": "Imagine-It Website",
   "main": "index.html",
   "directories": {
     "test": "test"
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toolwatch/shinobi"
+    "url": "http://lendog75.github.io/imagine-it.com/app/index.html"
   },
-  "author": "Lenny Reed, Jeff Faller",
+  "author": "Lenny Reed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/toolwatch/shinobi/issues"
+    "url": "https://github.com/lendog75/imagine-it.com/issues"
   },
-  "homepage": "https://github.com/toolwatch/shinobi"
+  "homepage": "https://github.com/lendog75/imagine-it.com"
 }
