@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ImagineIt">
 <head>
 
     <!-- start: Meta -->
@@ -13,14 +13,6 @@
     <!-- start: Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- end: Mobile Specific -->
-
-    <!-- start: Facebook Open Graph -->
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
-    <meta property="og:type" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:image" content=""/>
-    <!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -37,33 +29,8 @@
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <!--start: Navbar -->
-        <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a class="brand" href="index.html">
-                    <img src="img/Mountain1.png" width="110" class="pull-left"/>
-                </a>
+<div ng-include=" 'views/nav-header.html' "></div>
 
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- start: Slider -->
 <div class="slider-wrapper">
@@ -71,7 +38,8 @@
         <div class="da-slide">
             <h2>Imagine-It</h2>
 
-            <p>For far too long our small business has been forced to pay high prices and accept very poor results. It is
+            <p>For far too long our small business has been forced to pay high prices and accept very poor results. It
+                is
                 our mission to bringing the latest technologies to
                 small and medium size business at affordable prices. No auto generated websites here, we offer personal
                 service and a web presence you can be proud of. </p>
@@ -97,307 +65,65 @@
 
             <p>We use the latest technologies including HTML5 and CSS3, to deliver fast, stylish, cross-browser user
                 experiences. As the adoption of
-                these technologies within desktop browsers and tablets continues, the potential to deliver cutting-edge user
+                these technologies within desktop browsers and tablets continues, the potential to deliver cutting-edge
+                user
                 experiences grows exponentially. </p>
             <a href="#" class="da-link">Read more</a>
 
             <div class="da-img"><img src="img/parallax-slider/html5.png" alt="image03"/></div>
         </div>
     </div>
-<!-- end: Slider -->
+    <!-- end: Slider -->
 
 
-<div id="wrapper">
+    <div id="wrapper">
+        <div class="container">
+            <hr>
+            <div class="hero-unit">
+                <h3>
+                    it is our mission to provide cutting edge solutions that at an affordable prices to small and medium
+                    sized businesses. after working for years
+                    with the "big guys", It was all too clear that the small to medium businesses were simply being
+                    ignored. Those days are over!
+                </h3>
 
-    <div class="container">
-        <hr>
-
-        <!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
-        <div class="hero-unit">
-            <h3>
-                it is our mission to provide cutting edge solutions that  at an affordable prices to small and medium sized businesses.  after working for years
-                with the "big guys", It was all too clear that the small to medium businesses were simply being ignored. Those days are over!
-            </h3>
-
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-        </div>
-        <!-- end: Hero Unit -->
-
-        <hr>
-
-        <div class="row">
-            <!-- start: Icon Boxes -->
-            <div class="icons-box-vert-container">
-                <div class="span4">
-                    <div class="icons-box-vert">
-                        <i class="ico-cup  ico-white circle-color-full"></i>
-
-
-                        <div class="icons-box-vert-info">
-                            <h3>Best Choice</h3>
-                            <p>No other firm will work as hard as we will to help you achive each of the goals you set for your online presence</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="span4">
-                    <div class="icons-box-vert">
-                        <i class="ico-ipad ico-white circle-color-full"></i>
-
-                        <div class="icons-box-vert-info">
-                            <h3>Fully Responsive</h3>
-                            <p>Allowing your web presence to be shine no matter what device or platform users choose</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="span4">
-                    <div class="icons-box-vert">
-                        <i class="ico-ok ico-white circle-color-full"></i>
-
-                        <div class="icons-box-vert-info">
-                            <h3>Getting Started is Easy</h3>
-                            <p>Just give us a call and we will setup an inperson meeting to discuss your needs.  Call today!</p>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
+                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
             </div>
-            <!-- end: Icon Boxes -->
-            <div class="clear"></div>
+
+
+
+            <hr>
+            <div ng-include=" 'views/partial-icon-boxes.html' "></div>
+            <hr>
+            <div ng-include=" 'views/partial-latest-works.html' "></div>
+            <hr>
         </div>
 
-
-        <hr>
-
-        <!-- start: Row -->
-        <div class="row">
-
-            <div class="span9">
-
-                <div class="title"><h3>Latest Works</h3></div>
-
-                <div class="row">
-                    <div class="span3">
-                        <div class="picture">
-                            <a href="img/portfolio/LennyReed.com/Home1.png" rel="image" title="Responsive App">
-                                <img src="img/Portfolio/LennyReed.com/Home1.png">
-
-                                <div class="image-overlay-zoom"></div>
-                            </a>
-                        </div>
-                        <div class="item-description">
-                            <h4><a href="#">LennyReed.com</a></h4>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                        </div>
-                    </div>
-
-                    <div class="span3">
-                        <div class="picture">
-                            <a href="img/portfolio/Toolwatch-Shinobi/Home-Alt.png" rel="image" title="Responsive App">
-                                <img src="img/Portfolio/Toolwatch-Shinobi/Home-Alt.png">
-
-                                <div class="image-overlay-zoom"></div>
-                            </a>
-                        </div>
-                        <div class="item-description">
-                            <h4><a href="#">ToolWatch: Shinobi Project</a></h4>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                        </div>
-                    </div>
-
-                    <div class="span3">
-                        <div class="picture">
-                            <a href="img/portfolio/Toolwatch-OpsApp/ManageSnapshots.png" rel="image" title="Responsive App">
-                                <img src="img/portfolio/Toolwatch-OpsApp/ManageSnapshots.png">
-
-                                <div class="image-overlay-zoom"></div>
-                            </a>
-                        </div>
-                        <div class="item-description">
-                            <h4><a href="#">ToolWatch: Ops Project</a></h4>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                        </div>
-                    </div>
-
-                    <!--<div class="span3">-->
-
-                    <!--<div class="picture">-->
-                    <!--<a href="img/Portfolio/LennyReed.com/Home1.png" rel="image" title="mobile app">-->
-                    <!--<img src="img/Portfolio/LennyReed.com/Home1.png">-->
-
-                    <!--<div class="image-overlay-zoom"></div>-->
-                    <!--</a>-->
-                    <!--</div>-->
-                    <!--<div class="item-description">-->
-                    <!--<h4><a href="#">LennyReed.com</a></h4>-->
-
-                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut-->
-                    <!--labore et dolore magna aliqua. Ut enim ad minim veniam</p>-->
-                    <!--</div>-->
-
-                    <!--</div>-->
-
-                    <!--<div class="span3">-->
-
-                    <!--<div class="picture">-->
-                    <!--<a href="img/Portfolio/Toolwatch-Shinobi/Home-Alt.png" rel="image" title="mobile app">-->
-                    <!--<img src="img/Portfolio/Toolwatch-Shinobi/Home-Alt.png">-->
-
-                    <!--<div class="image-overlay-link"></div>-->
-                    <!--</a>-->
-                    <!--</div>-->
-                    <!--<div class="item-description">-->
-                    <!--<h4><a href="#">ToolWatch: Shinobi Project</a></h4>-->
-
-                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut-->
-                    <!--labore et dolore magna aliqua. Ut enim ad minim veniam</p>-->
-                    <!--</div>-->
-
-                    <!--</div>-->
-                </div>
-            </div>
-
-            <div class="span3">
-                <!-- start: Testimonials-->
-                <div class="testimonial-container">
-
-                    <div class="title"><h3>What Client’s Say</h3></div>
-
-                    <div class="testimonials-carousel" data-autorotate="3000">
-
-                        <ul class="carousel">
-
-                            <li class="testimonial">
-                                <div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-                                    ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                    ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                </div>
-                                <div class="testimonials-bg"></div>
-                                <div class="testimonials-author">Lucas Luck, <span>CEO</span></div>
-                            </li>
-
-                            <li class="testimonial">
-                                <div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-                                    ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                    ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                </div>
-                                <div class="testimonials-bg"></div>
-                                <div class="testimonials-author">Lucas Luck, <span>CTO</span></div>
-                            </li>
-
-                            <li class="testimonial">
-                                <div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-                                    ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                    ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                </div>
-                                <div class="testimonials-bg"></div>
-                                <div class="testimonials-author">Lucas Luck, <span>COO</span></div>
-                            </li>
-
-                            <li class="testimonial">
-                                <div class="testimonials">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
-                                    ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                    ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                </div>
-                                <div class="testimonials-bg"></div>
-                                <div class="testimonials-author">Lucas Luck, <span>CMO</span></div>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-                <!-- end: Testimonials-->
-            </div>
-        </div>
-        <hr>
-    </div>
-
-
-<!-- start: Footer Menu -->
-<div id="footer-menu" class="hidden-tablet hidden-phone">
-
-    <!-- start: Container -->
-    <div class="container">
-        <div class="row">
-            <div class="span4">
-                <div id="footer-menu-logo">
-                    <a class="brand" href="#"><img src="img/Mountain2.png" width="50">Imagine-It</a>
-                </div>
-            </div>
-
-            <div class="span7">
-                <div id="footer-menu-links">
-                    <ul id="footer-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="pricing.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="span1">
-
-                <div id="footer-menu-back-to-top">
-                    <a href="#"></a>
-                </div>
-            </div>
-        </div>
+        <div ng-include=" 'views/nav-footer.html' "></div>
     </div>
 </div>
 
 
-<!-- start: Copyright -->
-<div id="copyright">
 
-    <!-- start: Container -->
-    <div class="container">
-
-        <div class="span12">
-            <p>
-                &copy; 2014, <a href="#">Imagine-It.com</a>
-            </p>
-        </div>
-
-    </div>
-    <!-- end: Container  -->
-
-</div>
-<!-- end: Copyright -->
-
-<!-- start: Java Script -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-1.8.2.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+
 <script src="js/isotope.js"></script>
-<script src="js/jquery.imagesloaded.js"></script>
+<!--<script src="js/jquery.imagesloaded.js"></script>-->
 <script src="js/flexslider.js"></script>
 <script src="js/carousel.js"></script>
 <script src="js/jquery.cslider.js"></script>
-<script src="js/slider.js"></script>
+<!--<script src="js/slider.js"></script>-->
 <script src="js/fancybox.js"></script>
 <script defer="defer" src="js/custom.js"></script>
 <!-- end: Java Script -->
+
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+
 
 </body>
 </html>
