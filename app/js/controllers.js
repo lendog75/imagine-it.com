@@ -1,10 +1,20 @@
 angular.module('ImagineIt.controllers', ['ngRoute'])
     .controller('navCtrl', ['$scope', '$route', function ($scope, $route) {
-        $scope.route = $route;
+
     }])
 
-    .controller('AppCtrl', ['$scope', function ($scope) {
-        var yyy = "";
+    .controller('AppCtrl', ['$scope','$route', function ($scope , $route) {
+        $scope.getActiveNav = function() {
+            if ($route.current !== undefined) {
+                return $route.current.activeNav;
+            }
+        };
+
+
+
+
+
+
     }]);
 
 

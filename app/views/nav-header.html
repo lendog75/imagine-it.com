@@ -1,5 +1,5 @@
 
-<nav role="navigation" class="navbar navbar-default">
+<nav role="navigation" class="navbar navbar-default" >
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -16,11 +16,11 @@
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li ng-class="{ active: getActiveNav() === 'home' }"><a href="#">Home</a></li>
+            <li  ng-class="{ active: getActiveNav() === 'about' }"><a  href="#/about" >About</a></li>
+            <li  ng-class="{ active: getActiveNav() === 'services' }"><a href="#/services">Services</a></li>
+            <li  ng-class="{ active: getActiveNav() === 'portfolio' }"><a href="#/portfolio">Portfolio</a></li>
+            <li  ng-class="{ active: getActiveNav() === 'contact' }"><a href="#/contact">Contact</a></li>
         </ul>
     </div>
 </nav>

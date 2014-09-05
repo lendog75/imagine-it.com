@@ -10,13 +10,19 @@ angular.module('ImagineIt', [
 
 
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html' });
+        $routeProvider.when('/', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html',activeNav: 'home'  });
 
-        $routeProvider.when('/about', { controller: 'AppCtrl', templateUrl: 'views/partial-about.html'});
-        $routeProvider.when('/portfolio', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html' });
-        $routeProvider.when('/services', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html' });
-        $routeProvider.when('/pricing', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html' });
-        $routeProvider.when('/contact', { controller: 'AppCtrl', templateUrl: 'views/partial-home.html'});
+        $routeProvider.when('/about', { controller: 'AppCtrl', templateUrl: 'views/partial-about.html', activeNav: 'about'});
+        $routeProvider.when('/portfolio', { controller: 'AppCtrl', templateUrl: 'views/partial-portfolio.html',activeNav: 'portfolio' });
+        $routeProvider.when('/services', { controller: 'AppCtrl', templateUrl: 'views/partial-services.html',activeNav: 'services'  });
+        $routeProvider.when('/contact', { controller: 'AppCtrl', templateUrl: 'views/partial-contact.html',activeNav: 'contact' });
 
-        $routeProvider.otherwise({redirectTo: '/'});
+        $routeProvider.when('/portfolio/LennyReed', { controller: 'AppCtrl', templateUrl: 'views/portfolio/LennyReed.html',activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/ToolWatch-Shinobi', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ToolWatch-Shinobi.html',activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/ToolWatch-Ops', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ToolWatch-Ops.html',activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/ImagineIt', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ImagineIt.html',activeNav: 'portfolio' });
+
+        $routeProvider.otherwise({redirectTo: '/',activeNav: 'home' });
     }]);
+
+

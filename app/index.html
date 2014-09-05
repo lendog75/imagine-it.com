@@ -16,7 +16,6 @@
     <!-- start: CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/parallax-slider.css" rel="stylesheet">
@@ -27,13 +26,12 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
     <!-- end: CSS -->
 </head>
-<body>
+<body ng-controller="AppCtrl">
 
 <div ng-include=" 'views/nav-header.html' "></div>
 
 
-<!-- start: Slider -->
-<div class="slider-wrapper">
+<div class="slider-wrapper" ng-show="getActiveNav() === 'home'">
     <div id="da-slider" class="da-slider">
         <div class="da-slide">
             <h2>Imagine-It</h2>
@@ -74,32 +72,36 @@
         </div>
     </div>
     <!-- end: Slider -->
-
-
-    <div id="wrapper">
-        <div class="container">
-            <hr>
-            <div class="hero-unit">
-                <h3>
-                    it is our mission to provide cutting edge solutions that at an affordable prices to small and medium
-                    sized businesses. after working for years
-                    with the "big guys", It was all too clear that the small to medium businesses were simply being
-                    ignored. Those days are over!
-                </h3>
-
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-            </div>
-
-            <hr>
-            <div ng-include=" 'views/partial-icon-boxes.html' "></div>
-            <hr>
-            <div ng-include=" 'views/partial-latest-works.html' "></div>
-            <hr>
-        </div>
-
-        <div ng-include=" 'views/nav-footer.html' "></div>
-    </div>
 </div>
+
+
+<div ng-view></div>
+<!--<div id="wrapper">-->
+<!--<div class="container">-->
+<!--<hr>-->
+<!--<div class="hero-unit">-->
+<!--<h3>-->
+<!--it is our mission to provide cutting edge solutions that at an affordable prices to small and medium-->
+<!--sized businesses. after working for years-->
+<!--with the "big guys", It was all too clear that the small to medium businesses were simply being-->
+<!--ignored. Those days are over!-->
+<!--</h3>-->
+
+<!--<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
+<!--</div>-->
+
+<!--<hr>-->
+<!--<div ng-include=" 'views/partial-icon-boxes.html' "></div>-->
+<!--<hr>-->
+<!--<div ng-include=" 'views/partial-latest-works.html' "></div>-->
+<!--<hr>-->
+<!--</div>-->
+
+<!--<div ng-include=" 'views/nav-footer.html' "></div>-->
+<!--</div>-->
+<!--</div>-->
+
+<div ng-include=" 'views/nav-footer.html' "></div>
 
 
 <!--<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>-->
@@ -107,7 +109,6 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
-
 
 
 <script src="js/isotope.js"></script>
