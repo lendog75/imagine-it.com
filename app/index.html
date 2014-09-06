@@ -10,14 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/parallax-slider.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--<link href="css/theme.css" rel="stylesheet">-->
+
+
+
+
+ <link href="css/parallax-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Ubuntu' rel='stylesheet' type='text/css'>
+ <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">-->
+ <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">-->
+ <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">-->
+ <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">-->
 
 </head>
 <body ng-controller="AppCtrl">
@@ -25,47 +32,49 @@
 <div ng-include=" 'views/nav-header.html' "></div>
 
 
-<div class="slider-wrapper" ng-show="getActiveNav() === 'home'">
-    <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-            <h2>Imagine-It</h2>
+<div class="slider-wrapper" ng-show="getActiveNav() === 'home'"  >
+ <div id="da-slider" class="da-slider">
+     <div class="da-slide">
+         <h2>Imagine-It</h2>
 
-            <p>For far too long our small business has been forced to pay high prices and accept very poor results. It
-                is
-                our mission to bringing the latest technologies to
-                small and medium size business at affordable prices. No auto generated websites here, we offer personal
-                service and a web presence you can be proud of. </p>
+         <p>For far too long our small business has been forced to pay high prices and accept very poor results. It
+             is
+             our mission to bringing the latest technologies to
+             small and medium size business at affordable prices. No auto generated websites here, we offer personal
+             service and a web presence you can be proud of. </p>
 
-            <a href="#" class="da-link">Read more</a>
+         <a href="#" class="da-link">Read more</a>
 
-            <div class="da-img"><img src="img/Mountain1.png" alt="image01"/></div>
-        </div>
+         <div class="da-img"><img src="img/LogoWithBorder.png" width="400" alt="image01"/></div>
+     </div>
 
-        <div class="da-slide">
-            <h2>Responsive Design</h2>
+     <div class="da-slide">
+         <h2>Responsive Design</h2>
 
-            <p>Using Responsive design, we are able to produce a website that will be attractive and well positioned on
-                desktops, tablets, and
-                smartphones. The best part is you wont have to pay for a seperate version to suite each of them.</p>
-            <a href="#" class="da-link">Read more</a>
+         <p>Using Responsive design, we are able to produce a website that will be attractive and well positioned on
+             desktops, tablets, and
+             smartphones. The best part is you wont have to pay for a seperate version to suite each of them.</p>
+         <a href="#" class="da-link">Read more</a>
 
-            <div class="da-img"><img src="img/parallax-slider/responsive.png" alt="image02"/></div>
-        </div>
+         <div class="da-img"><img src="img/parallax-slider/responsive.png" alt="image02"/></div>
+     </div>
 
-        <div class="da-slide">
-            <h2>Cutting-Edge Technologies</h2>
+     <div class="da-slide">
+         <h2>Cutting-Edge Technologies</h2>
 
-            <p>We use the latest technologies including HTML5 and CSS3, to deliver fast, stylish, cross-browser user
-                experiences. As the adoption of
-                these technologies within desktop browsers and tablets continues, the potential to deliver cutting-edge
-                user
-                experiences grows exponentially. </p>
-            <a href="#" class="da-link">Read more</a>
+         <p>We use the latest technologies including HTML5 and CSS3, to deliver fast, stylish, cross-browser user
+             experiences. As the adoption of
+             these technologies within desktop browsers and tablets continues, the potential to deliver cutting-edge
+             user
+             experiences grows exponentially. </p>
+         <a href="#" class="da-link">Read more</a>
 
-            <div class="da-img"><img src="img/parallax-slider/html5.png" alt="image03"/></div>
-        </div>
-    </div>
+         <div class="da-img"><img src="img/parallax-slider/html5.png" alt="image03"/></div>
+     </div>
+ </div>
 </div>
+
+
 
 
 <div ng-view></div>
