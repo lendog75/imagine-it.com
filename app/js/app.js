@@ -20,7 +20,7 @@ angular.module('ImagineIt', [
         $routeProvider.when('/portfolio/LennyReed', { controller: 'AppCtrl', templateUrl: 'views/portfolio/LennyReed.html',activeNav: 'portfolio' });
         $routeProvider.when('/portfolio/ToolWatch-Shinobi', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ToolWatch-Shinobi.html',activeNav: 'portfolio' });
         $routeProvider.when('/portfolio/ToolWatch-Ops', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ToolWatch-Ops.html',activeNav: 'portfolio' });
-        $routeProvider.when('/portfolio/ImagineIt', { controller: 'AppCtrl', templateUrl: 'views/portfolio/ImagineIt.html',activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/Peak1Photography', { controller: 'AppCtrl', templateUrl: 'views/portfolio/Peak1Photography.html',activeNav: 'portfolio' });
 
         $routeProvider.otherwise({redirectTo: '/',activeNav: 'home' });
     }]);
