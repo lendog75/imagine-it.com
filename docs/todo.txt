@@ -1,0 +1,21 @@
+
+
+- Add process info
+- Complete LennyReed.com Case Study
+- Complete Peak1Photo.com Case Study
+- Complete Toolwatch: Ops Case Study
+- Complete Toolwatch: Shinobi Case Study
+- Get Toolwatch Field App images
+- review slider content and responsiveness
+- Redo robot in slider
+- Possible have top nav robot slide up on  initial load
+- Investigate why testimonials slider doesnt work on about
+- Bring back skill sliders
+- Write my bio
+- Write Leanne Bio
+- Restyle services
+- Possibly use quicksand on portfolio page
+- Possibly add jekle based blog
+- revise contact page
+- use only font-awsome icons
+
