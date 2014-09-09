@@ -40,9 +40,7 @@
         <li>Must work on modern browsers</li>
         <li>Must be backward compatible with the legacy application</li>
         <li>Should use Google, Amazon, E bay and other commercial sites as inspiration</li>
-        <li>Initial Minimum features include: Search, Tools, Employees, Locations, Move, and
-            Authentication
-        </li>
+        <li>Initial Minimum features include: Search, Tools, Employees, Locations, Move, and Authentication</li>
     </ul>
 </div>
 
@@ -65,13 +63,11 @@
     </ul>
 </div>
 
-
 <div class="media well">
     <a class="pull-right" href="#">
         <img class="media-object" src="img/portfolio/shinobi/home.png" width="300" alt=""/>
         <br>
         <img class="media-object" src="img/portfolio/shinobi/home-alt.png" width="300" alt=""/>
-
     </a>
 
     <div class="media-body">
@@ -125,30 +121,54 @@
 
 
 <div class="media">
-    <a class="pull-left" href="#">
 
-        <img class="media-object" src="img/portfolio/shinobi/toolbrowser.png" width="300" alt=""/>
-
-    </a>
 
     <div class="media-body">
         <h4 class="media-heading">Module: Tool</h4>
 
+        <p>
+            The app at its core is an asset tracking/management system, and the most important assets to the system are
+            tools. So it is no shock
+            that the tool module gets the most attention.
+        </p>
 
-        <p>Feature: User Detail</p>
 
-        <p>Lorem ipsum dolor sit amet, eos ponderum patrioque id. Mei sanctus minimum comprehensam no, ex sit
-            mucius posidonium. Vel in alia velit utamur. Vocibus adipiscing qui ea.</p>
+        <p>Feature: Tool Search</p>
 
-        <p> Mea unum rebum cotidieque ex, error option efficiantur eu nam. Menandri elaboraret disputationi est
-            te. Ad his nihil dissentiunt. Mea quis omnesque adolescens an, magna signiferumque in vix.</p>
+        <p>
+            The tool search is probably the most exciting part of the system. It starts with an Google style
+            auto-suggest. This is backed up by
+            a lightning fast Search Api (part of the Enterprise API). Each keystroke calls the API and the results are
+            sorted by relivance, returning upto 100 results.
+            Each result represents a model or category each representing many individual tools. Honestly, I would love
+            to say more, but is so unbelievably simple!
+        </p>
 
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
+        <p>
+            After selection the model or category, you want it leads to a results page. The Amazon style results page
+            detailing what was selected
+            and how many results were found. below that there are two panes, on the left are related filters including
+            manufacturer, assignment, and status.
+            Selecting any of these options immediatly filters the result set. On the right is a list of results
+            including pagination, sorting, and actions that
+            can be taken on each item.
+        </p>
+
+
+        <p>Feature: Tool Detail</p>
+
+        <p>
+            One of the actions that can be taken from the search results is getting the detail of a specific tool. Here
+            you can see critical info such as the model,
+            description, manufacturer, notes, and the individual assignments for the tool
+        </p>
+
+        <img src="img/portfolio/shinobi/tool-auto-suggest.png" width="300" alt=""/>
+        &nbsp;&nbsp;&nbsp;
+        <img src="img/portfolio/shinobi/toolbrowser.png" width="300" alt=""/>
+        &nbsp;&nbsp;&nbsp;
+        <img src="img/portfolio/shinobi/tool-detail.png" width="300" alt=""/>
+
     </div>
 
 
@@ -163,22 +183,19 @@
     </a>
 
     <div class="media-body">
-        <h4 class="media-heading">Module: User</h4>
+        <h4 class="media-heading">Module: Employee</h4>
 
 
-        <p>Feature: User Detail</p>
+        <p>Feature: Employee Detail</p>
 
-        <p>Lorem ipsum dolor sit amet, eos ponderum patrioque id. Mei sanctus minimum comprehensam no, ex sit
-            mucius posidonium. Vel in alia velit utamur. Vocibus adipiscing qui ea.</p>
+        <p>
+            This is a rather simple module, as with tools it starts with the search. After selecting a specific employee
+            you are taken to the employee detail where (like tool detail) you are presented relivant details on the
+            employee including name,
+            contact info, and tools assigned to that person.
+        </p>
 
-        <p> Mea unum rebum cotidieque ex, error option efficiantur eu nam. Menandri elaboraret disputationi est
-            te. Ad his nihil dissentiunt. Mea quis omnesque adolescens an, magna signiferumque in vix.</p>
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
+
     </div>
 </div>
 
@@ -187,7 +204,12 @@
     <a class="pull-left" href="#">
 
         <img class="media-object" src="img/portfolio/shinobi/location.png" width="300" alt=""/>
-        <br>
+
+    </a>
+
+    <a class="pull-right" href="#">
+
+
         <img class="media-object" src="img/portfolio/shinobi/locations.png" width="300" alt=""/>
     </a>
 
@@ -197,22 +219,19 @@
 
         <p>Feature: Location Detail</p>
 
-        <p>Lorem ipsum dolor sit amet, eos ponderum patrioque id. Mei sanctus minimum comprehensam no, ex sit
-            mucius posidonium. Vel in alia velit utamur. Vocibus adipiscing qui ea.</p>
+        <p>
+            As with employee this is a simple module, and again you can find locations using the search. After selecting
+            a specific location
+            you are taken to the location detail where (like tool detail) you are presented relivant details on the
+            location including name,
+            address info, and tools assigned to that location.
+        </p>
 
-        <p> Mea unum rebum cotidieque ex, error option efficiantur eu nam. Menandri elaboraret disputationi est
-            te. Ad his nihil dissentiunt. Mea quis omnesque adolescens an, magna signiferumque in vix.</p>
-
-        <p> Feature: Tool Search Results</p>
-
-        <p>Duo no appetere constituam inciderint, usu no congue recteque. Sea ex quodsi persius, ut nec rebum
-            primis bonorum, ei pericula posidonium vel. Hinc dicant dolore eu nec, mazim persius albucius duo
-            in. Usu exerci timeam vulputate no. Ei ius aeque aliquid equidem, libris efficiendi sed an, et
-            sanctus quaestio eam. Error quodsi in vim, at quo falli movet consulatu.</p>
-
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
+        <p>
+            Unlink employees, locations also allow for a way to see the complete list, in a Google style result set.
+            Filtering is included,
+            limiting the list as you type.
+        </p>
     </div>
 </div>
 
@@ -224,32 +243,17 @@
         <img class="media-object" src="img/portfolio/shinobi/move2.png" width="300" alt=""/>
     </a>
 
+
+
     <div class="media-body">
         <h4 class="media-heading">Module: Move</h4>
 
 
         <p>Feature: Create Move</p>
 
-        <p>Lorem ipsum dolor sit amet, eos ponderum patrioque id. Mei sanctus minimum comprehensam no, ex sit
-            mucius posidonium. Vel in alia velit utamur. Vocibus adipiscing qui ea.</p>
-
-        <p> Mea unum rebum cotidieque ex, error option efficiantur eu nam. Menandri elaboraret disputationi est
-            te. Ad his nihil dissentiunt. Mea quis omnesque adolescens an, magna signiferumque in vix.</p>
-
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
-
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
-
-        <p>Eu duo nibh sapientem, sumo vero legendos mei ex, has alia invenire ne. Causae mediocrem eum eu, no
-            eos erat aliquando. His ea forensibus mnesarchum efficiendi, eu per nostrud menandri, eu soleat
-            ponderum mei. Purto copiosae eu mei, cum quas ullum utamur ne, ius choro patrioque ut.</p>
+        <p>The concept of transferring/moving tools from one employee or location to another is a critical part of the daily </p>
     </div>
 </div>
-
 
 
 </div>
