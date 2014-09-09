@@ -1,25 +1,23 @@
 
 
-Client:
-Peak 1 Photography
+Client: Peak 1 Photography
 
-Photo Story:  Title
+Title: Need a neat title
 
+Tags: Portfolio, Blog, Digital Presence
 
 Problem:
 Peak1 wanted a new website, one that showed off their work.  In addition here area a few other requirements:
 - Need to be able to filter
 - Need to have large and small copies
-- Should be modern
+- Should be modern looking
 - Should show why Peak 1 is good?
 - Would like to have a blog
 - Keep costs down
 - Avoid using backend services if possible
 
-
-
 Solution:
-Develop a site using HTML5, JS, CSS3, Bootstrap, and Jquery Quicksand plugin.
+Develop a site using HTML5, JS, CSS3, Bootstrap, and JQuery Quicksand plugin.
 
 Benefits include:
 Responsive, Sexy interface and filtering system (Jquery QuickSand), full size and thumbnail images.
@@ -27,3 +25,7 @@ The system has no backend server component, and was on budget.
 
 Blog is on the roadmap.
 
+------------------TODO ---------------------
+- Possibly bring back Bootstrap2?
+- Get Logo
+- Do DNS
