@@ -1,0 +1,75 @@
+
+<!--<!--=== Slider ===-->
+<div class="slider-inner">
+    <div id="da-slider" class="da-slider">
+        <div class="da-slide">
+            <h2><i>Cutting Edge</i><br><i>Services for</i> <br/><i>Small Business</i></h2>
+
+            <p>
+                <i>The days if auto-generated sites</i><br>
+                <i>are over! We are a boutique firm </i><br>
+                <i>catering to small business</i><br>
+            </p>
+
+            <div class="da-img da-img-bottom hidden-xs">
+                <img src="img/logo.png" width="500"/>
+            </div>
+        </div>
+
+        <div class="da-slide">
+            <h2><i>CLEAN &amp; FRESH</i> <br/> <i>FULLY RESPONSIVE</i> <br/> <i>DESIGN</i></h2>
+
+            <p><i>Using Responsive design,</i> <br/> <i>allows us to produce a website that will be </i> <br/> <i>
+                attractiveon desktops,
+                tablets, and smartphones. </i>
+            </p>
+
+            <div class="da-img hidden-xs"><img class="img-responsive" src="img/parallax-slider/1.png" alt=""></div>
+        </div>
+
+
+        <!--<div class="da-slide">-->
+        <!--<h2><i>You imagine it</i> <br/><i>We make it</i> <br/></h2>-->
+
+        <!--<p>-->
+        <!--<i>Your digital presence is</i><br>-->
+        <!--<i>so important. It doesn't difficult.</i><br>-->
+        <!--<i>Allow us to be your partner.  your partner.</i> <br/>-->
+
+        <!--</p>-->
+
+        <!--<div class="da-img hidden-xs"><img class="img-responsive" src="img/parallax-slider/1.png" alt=""></div>-->
+        <!--</div>-->
+
+        <div class="da-slide">
+            <h2><i>USING BEST WEB</i> <br/> <i>SOLUTIONS WITH</i> <br/> <i>HTML5/CSS3</i></h2>
+
+            <p><i>Using Responsive design,</i> <br/> <i>allows us to produce a website that will be </i> <br/> <i>
+                attractive on desktops, tablets, and smartphones.</i>
+
+            <div class="da-img"><img src="img/parallax-slider/html5andcss3.png" alt="image01"/></div>
+        </div>
+
+        <div class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>
+        </div>
+    </div>
+</div>
+<!--/slider-->
+<!--=== End Slider ===-->
+
+
+<!--Slider stuff-->
+<script type="text/javascript" src="js/plugins/jquery.cslider.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('#da-slider').cslider({
+            current     : 0,// index of current slide
+            bgincrement : 50,// increment the background position (parallax effect) when sliding
+            autoplay    : true,// slideshow on / off
+            interval    : 1500// time between transitions
+
+        });
+    });
+</script>
