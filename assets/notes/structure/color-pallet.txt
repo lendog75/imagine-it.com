@@ -1,0 +1,44 @@
+Hovers = #FF095A
+
+Ligether Red
+HEX Code:
+#EF2344
+
+RGB:
+R=239 G=35 B=68
+
+Darker Red (this one may not have worked right we will see)
+HEX Code:
+#d8094d
+
+RGB:
+R=216 G=9 B=77
+
+
+
+Blue
+
+HEX Code:
+#306AAB
+
+RGB:
+R=48 G=106 B=171
+
+
+
+Green
+
+HEX Code:
+#7BC150
+
+RGB:
+R=123 G=193 B=80
+
+
+Yellow
+HEX Code:
+#F39D33
+
+RGB:
+R=243 G=157 B=51
+

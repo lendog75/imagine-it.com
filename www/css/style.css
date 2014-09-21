@@ -1,0 +1,231 @@
+body {
+    font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+}
+
+.align-right { float:right; margin: 0 0 15px 15px; }
+
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:focus {
+    color: #72c02c !important;
+    text-decoration: none;
+    border-top: 4px solid #72c02c !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+ .navbar .nav > li > a:hover {
+
+    border-top: 4px solid #72c02c !important;
+    background: #72c02c !important;
+    color: #fff !important;
+}
+
+
+.navbar-brand {
+
+    font-family: Ubuntu;
+    font-size: 36px;
+    vertical-align: middle;
+        padding-top: 20px;
+    text-shadow: 1px 1px rgb(159, 159, 159);
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6
+ {
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+
+.quote, .author {
+    background: #4e8e25;
+}
+
+.quote, .author {
+    line-height: 28px;
+    font-size: 24px;
+    padding: 15px;
+    color: #fff;
+    font-family: "Boogaloo";
+}
+
+/*Block Headline*/
+.headline {
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 1px dotted #e4e9f0;
+}
+
+
+.headline h2 {
+    font-size: 22px;
+}
+
+.headline h2,
+.headline h3,
+.headline h4 {
+    margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #72c02c;
+
+}
+
+.headline-md {
+    margin-bottom: 15px;
+}
+
+.headline-md h2 {
+    font-size: 21px;
+}
+
+
+/*Breadcrumbs
+------------------------------------*/
+/*Default Breadcrumbs*/
+.breadcrumbs {
+    overflow: hidden;
+    padding: 10px 0 6px;
+    border-bottom: solid 1px #eee;
+    background: url(../img/breadcrumbs.png) repeat;
+}
+.breadcrumbs h1 {
+    color: #666;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.breadcrumb {
+    top: 10px;
+    padding-right: 0;
+    background: none;
+    position: relative;
+}
+.breadcrumb a {
+    color: #777;
+}
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+    color: #ff095a;
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    .breadcrumbs h1.pull-left,
+    .breadcrumbs ul.pull-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .breadcrumbs h1.pull-left {
+        margin-bottom: 0;
+    }
+
+    .breadcrumbs .breadcrumb {
+        top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/*Main Styles
+------------------------------------*/
+/*Purchase Block*/
+.purchase {
+    padding: 25px 0 30px;
+    border-bottom: solid 1px #eee;
+    background: url(../img/breadcrumbs.png) repeat;
+}
+.purchase p {
+    margin-bottom: 0;
+}
+.purchase span {
+    color: #666;
+    display: block;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.purchase .btn-buy {
+    text-align: center;
+}
+
+.purchase .btn-buy a {
+    margin-top: 27px;
+}
+
+.purchase .btn-buy a i {
+    margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+    .purchase {
+        text-align: center;
+    }
+
+    .purchase span {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .purchase .btn-buy a {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+}
+
+
+/*Service*/
+.service {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 15px 15px 10px;
+}
+.service:hover {
+    background: #fcfcfc;
+    box-shadow: 0 0 5px #ddd;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.service:hover i {
+    color: #656565;
+}
+
+.service .desc {
+    padding: 0 15px;
+    overflow: hidden;
+}
+.service .desc h4 {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.service .service-icon {
+    float: left;
+    padding: 10px;
+    color: #72c02c;
+    font-size: 35px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.service .service-icon.icon-cogs {
+    font-size: 37px;
+}
+.service .service-icon.icon-plane {
+    font-size: 43px;
+}
+
