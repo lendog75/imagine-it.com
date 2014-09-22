@@ -15,11 +15,11 @@ angular.module('ImagineIt', [
         $routeProvider.when('/services', { controller: 'AppCtrl', templateUrl: 'views/partial-services.html', activeNav: 'services'  });
         $routeProvider.when('/contact', { controller: 'AppCtrl', templateUrl: 'views/partial-contact.html', activeNav: 'contact' });
 
-        $routeProvider.when('/portfolio/lennyreed', { controller: 'AppCtrl', templateUrl: 'views/portfolio/lenny-reed.html.html', activeNav: 'portfolio' });
-        $routeProvider.when('/portfolio/toolWatch-shinobi', { controller: 'AppCtrl', templateUrl: 'views/portfolio/toolwatch-shinobi.html', activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/lennyreed', { controller: 'AppCtrl', templateUrl: 'views/portfolio/lennyreed.html', activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/toolwatch-shinobi', { controller: 'AppCtrl', templateUrl: 'views/portfolio/toolwatch-shinobi.html', activeNav: 'portfolio' });
         $routeProvider.when('/portfolio/toolWatch-ops', { controller: 'AppCtrl', templateUrl: 'views/portfolio/toolwatch-ops.html', activeNav: 'portfolio' });
         $routeProvider.when('/portfolio/peak1photo', { controller: 'AppCtrl', templateUrl: 'views/portfolio/peak1photo.html', activeNav: 'portfolio' });
-        $routeProvider.when('/portfolio/littlereacals', { controller: 'AppCtrl', templateUrl: 'views/portfolio/littlerascals.html', activeNav: 'portfolio' });
+        $routeProvider.when('/portfolio/littlerascals', { controller: 'AppCtrl', templateUrl: 'views/portfolio/littlerascals.html', activeNav: 'portfolio' });
 
         $routeProvider.otherwise({redirectTo: '/', activeNav: 'home' });
     }]);
