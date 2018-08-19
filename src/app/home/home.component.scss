@@ -1,0 +1,46 @@
+@import '../../_variables';
+
+section {
+  margin-bottom: 2em;
+
+  .service-block {
+    height: 100%;
+
+    .action {
+      position: absolute;
+      bottom: 1em;
+      right: 1em;
+    }
+  }
+}
+
+.card-deck > .card {
+  border: none;
+}
+
+.card {
+  margin-top: 1em;
+  .circle-icon {
+    margin-bottom: .5em;
+    .fa-circle {
+      color: $brand;
+    }
+
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+
+  }
+  h4 {
+    min-height: 2em;
+  }
+
+  .card-link {
+    float: right;
+    color: $brand;
+  }
+}
+
+
+

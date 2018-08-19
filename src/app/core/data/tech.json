@@ -1,0 +1,22 @@
+[
+  { "title": "Angular", "short":"Angular (commonly referred to as Angular 2+ or Angular v2 and above)[4][5] is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google and by a community of individuals and corporations."},
+  { "title": "CSS3", "short":"CSS3 the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations,  as well as new layouts like multi-columns, flexible box or grid layouts. Experimental parts are vendor-prefixed and should either be avoided in production environments, or used with extreme caution as both their syntax and semantics can change in the future."},
+  { "title": "HTML5", "short":"The latest iteration of HTML addressing modern needs and expectations of websites. It deals with things like semantic markup, providing information about content it describes, it has become the standard for all modern web applications."},
+  { "title": "NodeJs", "short":"As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications."},
+  { "title": "Express.js", "short":""},
+  { "title": "Bootstrap", "short":"Open source toolkit for developing with HTML, CSS, and JS. Quickly prototype ideas. Featuring a responsive grid system, extensive prebuilt components, and powerful plugins."},
+  { "title": "Foundation", "short":""},
+  { "title": "Material Design", "short":""},
+  { "title": "MongoDB", "short":"MongoDB is an open-source, non-relational database developed by MongoDB, Inc. MongoDB stores data as documents in a binary representation called BSON (Binary JSON). Related information is stored together for fast query access through the MongoDB query language."},
+  { "title": "Postgress", "short":""},
+  { "title": "Firebase", "short":"Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.- Build apps fast, without managing infrastructure- Backed by Google, trusted by top apps - One platform, with products that work better together"},
+  { "title": "Javascript/ EcmaScript 6", "short":""},
+  { "title": "RestFul Services (REST)", "short":""},
+  { "title": "Jenkins", "short":""},
+  { "title": "Docker", "short":""},
+  { "title": "Git/Github", "short":""},
+  { "title": "Heroku", "short":""},
+  { "title": "Github pages", "short":""},
+  { "title": "Progressive Web Apps", "short":""},
+  { "title": "Responsive Design/Mobile First", "short":"A responsive website can provide a great user-experience across many devices and screen sizes. This is an important, since it is impossible to anticipate all the devices and screen sizes searchers will use to access your site."}
+]

@@ -1,9 +1,0 @@
-
-3 Reasons Why Responsive Web Design is the Best Option For Your Mobile SEO Strategy
-http://searchenginewatch.com/sew/how-to/2253965/3-reasons-why-responsive-web-design-is-the-best-option-for-your-mobile-seo-strategy#
-
-One of the most appealing aspects of responsive web design is that a responsive website can provide a
-great user-experience across many devices and screen sizes. This is an important characteristic, since
-it is impossible to anticipate all the devices and screen sizes searchers will use to access your site.
-A site that works well regardless of these variables will provide a better and more consistent
-user-experience than a separate mobile site that is designed for a specific device and screen size.

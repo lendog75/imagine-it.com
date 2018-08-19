@@ -1,0 +1,14 @@
+<br><br>
+<div class="container" style="margin: 2em;">
+  <button [@scaleTrigger]="state" class="btn btn-primary" (click)="toggleState()">My Button</button>
+  <br><br>
+
+  <!--<a (click)="removeItem()"-->
+  <ul>
+    <li *ngFor="let q of quotes; let i = index" [@rollDownTrigger]="state" >
+      <a (click)="removeItem($event, i)">Remove</a> {{q.text}} {{i}}
+    </li>
+  </ul>
+
+
+</div>

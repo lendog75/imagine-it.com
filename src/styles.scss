@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+// App fonts
+// https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat
+// https://fonts.google.com/specimen/Roboto?selection.family=Roboto
+
+
+@import '~bootstrap/scss/bootstrap';
+@import './_variables';
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #548096;
+  margin: .75em 0;
+  padding: 0;
+  width: 8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: white;
+}
+
+

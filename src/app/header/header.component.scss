@@ -1,0 +1,35 @@
+@import '../../_variables';
+
+nav.navbar {
+  z-index: 1000000;
+  padding: 1em !important;
+}
+
+.logo {
+  height: 2em;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+.navbar li.nav-item {
+  a {
+    margin-top: .25em;
+  }
+}
+
+.navbar li.nav-item > a:hover {
+  border-top: 2px solid $brand !important;
+  margin-top: 0 !important;
+  background: $brand !important;
+  color: $grey !important;
+}
+
+.active {
+  color: $brand !important;
+}

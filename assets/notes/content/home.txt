@@ -1,5 +1,0 @@
-Home
-- Slider
-- 3 Things
-- Slogan/Tagline w/ expplaination
-- Footer

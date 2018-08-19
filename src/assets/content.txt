@@ -1,0 +1,155 @@
+
+Business Plan:
+Consulting services targeted at established businesses and startups.
+Taking project based, providing training, getting teams going
+
+
+Site structure:
+Header
+    Home
+
+    Story
+
+    Career/Resume
+
+    Contact
+Footer
+
+Our Story
+Imagine-It is boutique web development firm owner by Lenny Reed and located in Denver Colorado.
+
+After almost 20 years of developing web applications for organizations including
+The US Olympic Committee, Johns Hopkins, STARZ Entertainment and many others,
+consulting was the next logical step.
+
+We specialize in creating innovative web applications and design.
+
+- web application development
+- Angular training and mentorship
+- Data Architecture (relational & NoSQL)
+- DevOps using Jenkins and Docker
+- Progressive Web Apps
+- Hybrid apps
+
+All with a "local touch"
+Many of the larger consulting firms are national. This does help them scale, but often times,
+a sort of sterile feeling come from that, almost like chain stores.
+
+At Imagine-It we are committed to maintaining our local touch, partnering with our clients to meet their needs.
+
+
+Core Values:
+- craftsmanship
+- critical thinking
+- delivering quality products
+- Modern development tools and principals
+- Cloud based services and hosting
+- High Availability
+- 20 years of experience
+- Analytics
+- Agile Principals (Scrum/Kahnban)
+
+
+Quotes:
+- It is hard to be great at anything, without loving it first
+    - Lenny Reed
+- Good architecture, is insurance against future pain
+    - Lenny Reed
+- Winning doesn't just happen, it takes effort and strong will
+    - Lenny Reed
+- Writing code is like singing a song, it's at its best when it flows freely
+    - Lenny Reed
+- If you learn from each and every experience, no effort is wasted
+    - Lenny Reed
+- The road to success is long, so get started
+    - Lenny Reed
+We make it our business provide cutting edge solutions that at affordable prices helping you grow your business.
+    - Lenny Reed
+
+
+- Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+    - Martin Fowler
+- Teaching peers is one of the best ways to develop mastery.
+    - Jeff Atwood
+- The trick isnt adding stuff, it is taking it away.
+    - Mark Zuckerberg, Facebook
+
+
+quick cards:
+- OUR APPS ARE FULLY RESPONSIVE
+    A responsive website can provide a great user-experience across many devices and screen sizes. This is critical,
+    since it is impossible to anticipate all the devices and screen sizes searchers will use to access your site.
+- COMPETITIVE ADVANTAGE
+    Our mission is to use technology to provide our clients with a competitive advantage.
+    We do this we leverage the most advanced technologies possible. Our state-of-the-art web sites will
+    seperate your business the competition.
+- POWERFUL WEBSITES FOR GROWING COMPANIES
+    Your brand is much more than just your logo, and some contact info, tt's your company's identity. Let us be your
+    partner, providing solid design, creativity, and a little ingenuity...
+
+
+Tech:
+- Angular
+    Angular (commonly referred to as "Angular 2+" or "Angular v2 and above")[4][5] is a TypeScript-based open-source
+    front-end web application platform led by the Angular Team at Google and by a community of individuals and
+    corporations.
+- CSS3
+    CSS3 the latest evolution of the Cascading Style Sheets language.
+    It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations,
+    as well as new layouts like multi-columns, flexible box or grid layouts. Experimental parts are vendor-prefixed
+    and should either be avoided in production environments, or used with extreme caution as both their syntax and
+    semantics can change in the future.
+- HTML5
+    The latest iteration of HTML addressing modern needs and expectations of websites. It deals with things like
+    semantic markup, providing information about content it describes, it has become the standard for all
+    modern web applications.
+- NodeJs
+    As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network
+    applications.
+- Express.js
+- Bootstrap
+    Open source toolkit for developing with HTML, CSS, and JS. Quickly prototype ideas. Featuring a
+    responsive grid system, extensive prebuilt components, and powerful plugins.
+- Foundation
+- Material Design
+- MongoDB
+    MongoDB is an open-source, non-relational database developed by MongoDB, Inc. MongoDB stores data as documents
+    in a binary representation called BSON (Binary JSON). Related information is stored together for fast
+    query access through the MongoDB query language.
+- Need a relational DB???  Perhaps Postgress?
+- Firebase
+    Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move
+    quickly and focus on your users.
+    - Build apps fast, without managing infrastructure
+    - Backed by Google, trusted by top apps
+    - One platform, with products that work better together
+- Javascript/ EcmaScript 6
+- RestFul Services (REST)
+- Jenkins
+- Docker
+- Git/Github
+- Heroku
+- Github pages
+- Progressive Web Apps
+- Responsive Design/Mobile First
+   A responsive website can provide a great user-experience across many devices and screen sizes. This is an
+   important, since it is impossible to anticipate all the devices and screen sizes searchers will use to
+   access your site.
+
+Things to add:
+- Develop a Carosole (ideally parallax), compatable with angular and not dependent on JQuery
+- Add parallax effect back in
+- Add Angular and CSS based animations
+- Add small slider with comments from LinkedIn
+- Content from JSON
+- Resume from JSON
+- MAKE app a PWA
+
+
+Things to do:
+- master Material Design spec
+- include all dependencies as node_modules
+- Need more PWA support
+- Postgress
+- Need to find a place to host docker
+
