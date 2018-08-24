@@ -44,7 +44,7 @@ export const rollInTransition =
     })),
     transition('void <=> *', [
       style({opacity: '0', transform: 'translateY(400px)'}),
-      animate('2s .5s ease-out')
+      animate('2s 1.5s ease-out')
     ])
   ])
 

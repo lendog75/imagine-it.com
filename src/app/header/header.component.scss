@@ -1,8 +1,12 @@
-@import '../../_variables';
+@import '../../assets/scss/variables';
+
+
+
 
 nav.navbar {
   z-index: 1000000;
   padding: 1em !important;
+  border-bottom: 1px solid $brand;
 }
 
 .logo {

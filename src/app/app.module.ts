@@ -13,9 +13,12 @@ import { OurTechComponent } from './our-tech/our-tech.component';
 import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { CoreModule } from './core/core.module';
-import { SocialIconComponent } from './social-icon/social-icon.component';
+import { SocialIconComponent } from './shared/components/social-icon/social-icon.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentBlockComponent } from './shared/components/content-block/content-block.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +34,15 @@ import { ContentBlockComponent } from './shared/components/content-block/content
     MobileMenuComponent,
     QuotesComponent,
     SocialIconComponent,
-    ContentBlockComponent
+    ContentBlockComponent,
+    ContactUsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

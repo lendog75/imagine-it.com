@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "imagine-it": {
-      "root": "",
+      "root": "crc",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
@@ -30,6 +30,11 @@
 
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/scss"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
