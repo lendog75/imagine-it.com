@@ -8,6 +8,9 @@
 @import '~bootstrap/scss/bootstrap';
 @import './_variables';
 
+body, html {
+  height: 100%;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -40,3 +43,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+.parallax {
+  height: 60%;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.first {
+  @extend .parallax;
+  background-image: url("assets/img/other/lenny1.jpg");
+}
+
+.second {
+  @extend .parallax;
+  background-image: url("assets/img/other/lenny2.jpg");
+}
+
+.third {
+  @extend .parallax;
+  background-image: url("assets/img/other/lenny3.jpg");
+}
+
+
+
+.banner {
+  @extend .parallax;
+  background-image: url("assets/img/other/denver2.jpg");
+}

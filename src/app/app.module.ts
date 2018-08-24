@@ -15,6 +15,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { CoreModule } from './core/core.module';
 import { SocialIconComponent } from './social-icon/social-icon.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContentBlockComponent } from './shared/components/content-block/content-block.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     OurTechComponent,
     MobileMenuComponent,
     QuotesComponent,
-    SocialIconComponent
+    SocialIconComponent,
+    ContentBlockComponent
   ],
   imports: [
     BrowserModule,
