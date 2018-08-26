@@ -1,0 +1,29 @@
+
+
+.round-thumb-container {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  float: right;
+  margin: 1em;
+  text-align: center;
+}
+
+
+.round-thumb, .round-thumb span, .round-thumb span img {
+  max-width: 250px;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  border-radius: 250px;
+  overflow: hidden;
+}
+.round-thumb {
+  position: relative;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  border: 5px solid #ccc;
+  border: 3px solid rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.4);
+  -moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.4);
+  box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.4);
+}

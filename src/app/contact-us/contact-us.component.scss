@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables';
+
+.x {
+  position: relative;
+  background-color: $brand;
+  color: white;
+}
+
+.contact-card {
+  padding:1em;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 100%;
+
+  h3 {
+    color: black;
+  }
+}

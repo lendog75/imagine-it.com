@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Quote } from '../../shared/shared/models/quote';
+import { Quote } from '../../shared/models/quote';
 
 
 @Injectable({

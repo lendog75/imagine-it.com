@@ -24,7 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 
 ## Deployment
-ng build --prod --base-href "http://lennyreed.com/imagine-it/"
+ng build --prod --base-href "http://lennyreed.com/imagine-it.com/"
 ngh --dir dist/imagine-it
 ## Further help
 
