@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { QuotesService } from '../core/services/quotes.service';
 import { Quote } from '../shared/models/quote';
-import { rollInTransition, rollDownTransition, scaleTransition } from '../animations';
+import { rollInTransition, rollDownTransition, scaleTransition } from '../shared/animations';
 
 
 @Component({

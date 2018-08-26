@@ -1,0 +1,63 @@
+@import '../../assets/scss/variables';
+
+.footer-image {
+  width: 100%;
+}
+
+.headline {
+  display: block;
+
+  border-bottom: 1px dotted $grey-lighter;
+
+  h2, h3, h4 {
+    margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid $brand;
+  }
+}
+
+footer {
+  margin-top: 1em;
+  .main-footer {
+    padding-top: 1em;
+    color: #dadada;
+    background: $grey-dark;
+  }
+
+  h2, h3, h4 {
+    color: $grey-lighter;
+    background: none;
+    text-shadow: none;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  a:hover {
+    color: $brand-light;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .footer p, .footer a {
+    font-size: 14px;
+    color: #dadada !important;
+  }
+}
+
+.main-footer, .copyright {
+  padding:1em;
+}
+
+.copyright {
+  color: #dadada;
+  font-size: 12px;
+
+  background: $grey-darker;
+  border-top: solid 1px $grey;
+  max-height: 3rem;
+}

@@ -1,0 +1,84 @@
+@import '../../../assets/scss/variables';
+
+div.main-slider {
+  position: relative;
+  div.hero {
+
+    filter: brightness(1);
+    height: 34em;
+    background-image: url('../../../assets/img/other/denver2.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    /* On screens that are 992px or less, set the background color to blue */
+    @media screen and (max-width: 992px) {
+      height: 24em;
+    }
+
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+      height: 14em;
+    }
+  }
+  div.cover-text {
+    padding-top: 8em;
+    padding-left: 3em;
+    color: white;
+    z-index: 444444;
+    position: absolute;
+
+    h2 {
+      background-color: $brand-darker;
+      padding: .15em;
+    }
+
+    /* On screens that are 992px or less, set the background color to blue */
+    @media screen and (max-width: 992px) {
+      h2 {
+        font-size:1em;
+        background-color: $brand-darker;
+        padding: .1em;
+      }
+    }
+
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+      padding-top: 6.5em;
+      padding-left: .5em;
+      h2 {
+        font-size:.75em;
+        background-color: $brand-darker;
+        padding: 0;
+      }
+    }
+  }
+
+  img.cover-image {
+    bottom: -10px;
+    right: 1px;
+    z-index: 444444;
+    position: absolute;
+    padding-right: 2em;
+    zoom: 1.8;
+
+    /* On screens that are 992px or less, set the background color to blue */
+    @media screen and (max-width: 992px) {
+      zoom: 1;
+    }
+
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+      zoom: .5;
+    }
+
+  }
+
+
+  .pull-left {
+    margin-right: 1.5em;
+  }
+
+  .pull-right {
+    margin-left: 1.5em;
+  }
+}

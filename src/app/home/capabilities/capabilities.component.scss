@@ -1,0 +1,33 @@
+@import '../../../assets/scss/variables';
+
+
+.card-deck > .card {
+  border: none;
+}
+
+.card {
+  margin-top: 1em;
+  .circle-icon {
+    margin-bottom: .5em;
+    .fa-circle {
+      color: $brand;
+    }
+
+  }
+  h4 {
+    min-height: 2em;
+  }
+
+  .card-link {
+    float: right;
+    color: $brand;
+  }
+}
+
+.fa-res {
+  font-size: 3rem;
+  @media screen and (max-width: 400px) {
+    font-size: 2rem;
+  }
+}
+

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { rollInTransition } from '../animations';
+import { rollInTransition } from '../shared/animations';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations: [rollInTransition]
+  animations:[rollInTransition]
 })
 export class HomeComponent implements OnInit {
 
