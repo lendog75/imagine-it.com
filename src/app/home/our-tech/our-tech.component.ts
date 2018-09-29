@@ -10,5 +10,4 @@ export class OurTechComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

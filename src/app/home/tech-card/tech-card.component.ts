@@ -12,5 +12,4 @@ export class TechCardComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

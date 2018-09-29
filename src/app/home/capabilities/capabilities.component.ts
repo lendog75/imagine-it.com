@@ -11,5 +11,4 @@ export class CapabilitiesComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
