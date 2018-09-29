@@ -26,6 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Deployment
 ng build --prod --base-href "http://lennyreed.com/imagine-it.com/"
 ngh --dir dist/imagine-it
+then prob need to redo custome name to www.imagine-it.com
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
