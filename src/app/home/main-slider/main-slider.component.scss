@@ -3,7 +3,6 @@
 div.main-slider {
   position: relative;
   div.hero {
-
     filter: brightness(1);
     height: 34em;
     background-image: url('../../../assets/img/other/denver2.jpg');
@@ -24,7 +23,7 @@ div.main-slider {
     padding-top: 8em;
     padding-left: 3em;
     color: white;
-    z-index: 444444;
+    z-index: 150;
     position: absolute;
 
     h2 {
@@ -56,7 +55,7 @@ div.main-slider {
   img.cover-image {
     bottom: -10px;
     right: 1px;
-    z-index: 444444;
+    z-index: 100;
     position: absolute;
     padding-right: 2em;
     zoom: 1.8;
