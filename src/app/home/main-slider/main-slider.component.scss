@@ -4,48 +4,48 @@ div.main-slider {
   position: relative;
   div.hero {
     filter: brightness(1);
-    height: 34em;
+    height: 34rem;
     background-image: url('../../../assets/img/other/denver2.jpg');
     background-size: cover;
     background-position: center center;
 
     /* On screens that are 992px or less, set the background color to blue */
     @media screen and (max-width: 992px) {
-      height: 24em;
+      height: 20rem;
     }
 
     /* On screens that are 600px or less, set the background color to olive */
     @media screen and (max-width: 600px) {
-      height: 14em;
+      height: 14rem;
     }
   }
   div.cover-text {
-    padding-top: 8em;
-    padding-left: 3em;
+    padding-top: 8rem;
+    padding-left: 3rem;
     color: white;
     z-index: 150;
     position: absolute;
 
     h2 {
       background-color: $brand-darker;
-      padding: .15em;
+      padding: .15rem;
     }
 
     /* On screens that are 992px or less, set the background color to blue */
     @media screen and (max-width: 992px) {
       h2 {
-        font-size:1em;
+        font-size:1rem;
         background-color: $brand-darker;
-        padding: .1em;
+        padding: .1rem;
       }
     }
 
     /* On screens that are 600px or less, set the background color to olive */
     @media screen and (max-width: 600px) {
-      padding-top: 6.5em;
-      padding-left: .5em;
+      padding-top: 6.5rem;
+      padding-left: .5rem;
       h2 {
-        font-size:.75em;
+        font-size:.75rem;
         background-color: $brand-darker;
         padding: 0;
       }
@@ -57,7 +57,7 @@ div.main-slider {
     right: 1px;
     z-index: 100;
     position: absolute;
-    padding-right: 2em;
+    padding-right: 2rem;
     zoom: 1.8;
 
     /* On screens that are 992px or less, set the background color to blue */
@@ -74,10 +74,10 @@ div.main-slider {
 
 
   .pull-left {
-    margin-right: 1.5em;
+    margin-right: 1.5rem;
   }
 
   .pull-right {
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
   }
 }

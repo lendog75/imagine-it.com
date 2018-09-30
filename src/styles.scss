@@ -7,6 +7,21 @@
 
 body, p {
   font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  font-size: 18px !important;
+
+  ///* On screens that are 992px or less, set the background color to blue */
+  //@media screen and (max-width: 992px) {
+  //  height: 10rem;
+  //}
+  //
+  ///* On screens that are 600px or less, set the background color to olive */
+  //@media screen and (max-width: 600px) {
+  //  height: 14rem;
+  //}
 }
 
 h1, h2, h3, h4, h5, h6 {
