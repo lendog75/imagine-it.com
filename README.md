@@ -31,3 +31,8 @@ then prob need to redo custome name to www.imagine-it.com
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+Imagine-it.com
+google-site-verification=mHUq3LTvo2OKq_JMxnyvT0kGWVPf088WuMtQKXkyjlY
+

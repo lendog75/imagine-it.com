@@ -1,0 +1,18 @@
+.card-basic {
+  margin: 1rem;
+  border: 1px solid #585F69;
+
+  .head {
+    img {
+      height: 50% !important;
+      background-size: cover !important;
+      background-position: center !important;
+      width: 100%;
+    }
+  }
+
+  .body {
+    padding: 1.25rem !important;
+    overflow: hidden;
+  }
+}

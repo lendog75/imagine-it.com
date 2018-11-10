@@ -1,0 +1,68 @@
+@import 'variables';
+
+section {
+  padding: 2rem;
+  .card {
+    text-align: left;
+    border: none;
+    margin-top: 1em;
+    .circle-icon {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: .5em;
+      .fa-circle {
+        color: $brand-accent;
+      }
+
+    }
+    h5 {
+      font-size: 1rem;
+      i {
+        display: inline-block;
+        margin-right: .75rem;
+      }
+    }
+    p {
+      font-size: .75rem;
+    }
+    .card-link {
+      float: right;
+      color: $brand;
+    }
+  }
+
+  // On screens that are 800px or less
+  @media only screen and (min-width: 768px) {
+    .card {
+      text-align: center !important;
+      h5 > i {
+        display: none !important;
+      }
+    }
+
+  }
+
+  .fa-res {
+    font-size: 2rem;
+    @media screen and (max-width: 400px) {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .card {
+      max-width: 20rem;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 0;
+      border-bottom: 1px solid silver;
+      .circle-icon {
+        display: none;
+      }
+    }
+
+    p {
+      font-size: .5rem;
+    }
+  }
+}

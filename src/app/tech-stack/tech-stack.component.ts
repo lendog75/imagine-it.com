@@ -8,7 +8,7 @@ import { pageTransition } from '../shared/animations';
   animations: [pageTransition]
 })
 export class TechStackComponent implements OnInit {
-
+  coverText: string[] = ['Out Tech Stack'];
   constructor() { }
 
   ngOnInit() {

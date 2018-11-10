@@ -1,0 +1,14 @@
+<div class="card-basic">
+
+        <img [src]="image" class="head" />
+
+    <div class="body">
+        <h5>
+            <ng-content select="[heading]"></ng-content>
+        </h5>
+
+        <p>
+            <ng-content select="[body]"></ng-content>
+        </p>
+    </div>
+</div>

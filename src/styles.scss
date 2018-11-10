@@ -12,16 +12,12 @@ body, p {
 
 body {
   font-size: 18px !important;
+  background-color: white;
 
-  ///* On screens that are 992px or less, set the background color to blue */
-  //@media screen and (max-width: 992px) {
-  //  height: 10rem;
-  //}
-  //
-  ///* On screens that are 600px or less, set the background color to olive */
-  //@media screen and (max-width: 600px) {
-  //  height: 14rem;
-  //}
+  @media (min-width: 1025px) {
+    background-color: #dee2e638;
+  }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 1440px;
-  min-height:600px;
+  min-height: 600px;
 }
 
 .btn-primary {
@@ -57,14 +53,54 @@ hr {
   width: 8em;
 }
 
-section.page-container {
-  padding: 2rem;
-}
-
 hr {
   margin-bottom: 2rem;
 }
 
-section {
-  padding: 2rem;
+.eqWrap {
+  display: flex;
 }
+
+.eq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .25rem;
+}
+
+.equalHW {
+  flex: 1;
+  justify-content: center;
+  vertical-align: middle !important;
+}
+
+section.page-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  // On screens that are 800px or less
+  @media only screen and (min-width: 768px) {
+
+  }
+
+  //On screens that are 1024px or more
+  @media only screen and (min-width: 1024px) {
+
+    max-width: 1440px;
+  }
+}
+
+  section.component {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem !important;
+    max-width: 1440px;
+    background-color: white;
+
+    @media (max-width: 700px) {
+      margin: 0;
+    }
+  }

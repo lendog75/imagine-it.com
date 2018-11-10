@@ -1,0 +1,31 @@
+nav {
+  top: 0;
+  z-index: 5000;
+  width: 100%;
+  position: fixed;
+  background-color: #7398aa !important;
+  padding: .75rem;
+
+  section {
+    padding: 0;
+  }
+  .brand, .nav-items {
+    display: inline-block;
+  }
+
+  .brand {
+    float: left;
+    img {
+      height: 3rem;
+    }
+  }
+
+  //On screens that are 1024px or more
+  @media only screen and (min-width: 1024px) {
+    height: 6rem !important;
+
+    img {
+      height: 5rem !important;
+    }
+  }
+}

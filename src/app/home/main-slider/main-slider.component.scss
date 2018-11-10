@@ -2,26 +2,28 @@
 
 div.main-slider {
   position: relative;
+
   div.hero {
-    filter: brightness(1);
-    height: 34rem;
-    background-image: url('../../../assets/img/other/denver12.jpg');
-    background-size: cover;
-    background-position: left top;
+    height: 20rem;
+    background: url('../../../assets/img/other/lenny3.small.jpg') center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 
-    /* On screens that are 992px or less, set the background color to blue */
-    @media screen and (max-width: 992px) {
-      height: 20rem;
+    // On screens that are 800px or less
+    @media only screen and (min-width: 768px) {
+      height: 30rem !important;
     }
 
-    /* On screens that are 600px or less, set the background color to olive */
-    @media screen and (max-width: 600px) {
-      height: 14rem;
+    //On screens that are 1024px or less, set the background color to blue
+    @media only screen and (min-width: 1024px) {
+      background: url('../../../assets/img/other/lenny3.medium.jpg') center;
+      height: 50rem !important;
     }
+
   }
   div.cover-text {
-    padding-top: 8rem;
-    padding-left: 3rem;
+    padding-top: 7rem;
+    padding-left: 0;
     color: white;
     z-index: 150;
     position: absolute;
@@ -29,55 +31,32 @@ div.main-slider {
     h2 {
       background-color: $brand-darker;
       padding: .15rem;
+      padding-left: 2rem;
+      font-size: 1rem;
+      margin: .5rem 0;
+      width: fit-content;
+
     }
 
-    /* On screens that are 992px or less, set the background color to blue */
-    @media screen and (max-width: 992px) {
+    // On screens that are 800px or less
+    @media only screen and (min-width: 768px) {
+      padding-top: 10rem;
+
       h2 {
-        font-size:1rem;
-        background-color: $brand-darker;
-        padding: .1rem;
+        font-size: 2rem !important;
+        margin: 1.5rem 0;
+        padding-left: 5rem;
+        padding-right: 1.5rem;
       }
     }
 
-    /* On screens that are 600px or less, set the background color to olive */
-    @media screen and (max-width: 600px) {
-      padding-top: 6.5rem;
-      padding-left: .5rem;
+    //On screens that are 1024px or less, set the background color to blue
+    @media only screen and (min-width: 1024px) {
       h2 {
-        font-size:.75rem;
-        background-color: $brand-darker;
-        padding: 0;
+        font-size: 4rem !important;
       }
-    }
-  }
 
-  img.cover-image {
-    bottom: -10px;
-    right: 1px;
-    z-index: 100;
-    position: absolute;
-    padding-right: 2rem;
-    zoom: 2.5;
-
-    /* On screens that are 992px or less, set the background color to blue */
-    @media screen and (max-width: 992px) {
-      zoom: 1;
     }
 
-    /* On screens that are 600px or less, set the background color to olive */
-    @media screen and (max-width: 600px) {
-      zoom: .5;
-    }
-
-  }
-
-
-  .pull-left {
-    margin-right: 1.5rem;
-  }
-
-  .pull-right {
-    margin-left: 1.5rem;
   }
 }

@@ -1,0 +1,10 @@
+<div class="main-slider">
+    <img [src]="coverImagePath" class="img-fluid cover-image" [@slideLeftTrigger]="">
+
+    <div class="cover-text" [@slideRightTrigger]="">
+        <h2 class="pull-left" *ngFor="let i of coverText">{{i}}</h2>
+    </div>
+
+    <img [src]="heroImagePath" class="hero" [@rollDownTrigger]="">
+</div>
+

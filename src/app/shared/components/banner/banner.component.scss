@@ -1,0 +1,129 @@
+@import '../../../../assets/scss/variables';
+
+img.hero {
+  position: relative;
+  height: 34rem;
+  background-size: cover;
+  background-position: left bottom;
+  width: 100%;
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    height: 20rem;
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 800px) {
+    height: 12rem;
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    height: 10rem;
+  }
+
+}
+
+div.cover-text {
+  padding-top: 8rem;
+  padding-left: 3rem;
+  color: white;
+  z-index: 150;
+  position: absolute;
+
+  h2 {
+    background-color: $brand-darker;
+    padding: .15rem;
+  }
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    h2 {
+      font-size: 1rem;
+      background-color: $brand-darker;
+      padding: .1rem;
+    }
+  }
+}
+
+
+img.cover-image {
+  bottom: 43rem;
+  right: 1px;
+  z-index: 100;
+  position: absolute;
+  padding-right: 2rem;
+  zoom: 2.5;
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    zoom: 1;
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    //zoom: .5;
+    display: none;
+  }
+}
+
+
+.pull-left {
+  margin-right: 1.5rem;
+}
+
+.pull-right {
+  margin-left: 1.5rem;
+}
+
+
+
+
+
+//
+//  /* On screens that are 600px or less, set the background color to olive */
+//  @media screen and (max-width: 600px) {
+//    padding-top: 6.5rem;
+//    padding-left: .5rem;
+//    h2 {
+//      font-size:.75rem;
+//      background-color: $brand-darker;
+//      padding: 0;
+//    }
+//  }
+//}
+//
+
+
+//div.main-slider {
+//  position: relative;
+//  div.hero {
+//    filter: brightness(1);
+//    height: 34rem;
+//
+//    background-size: cover;
+//    background-position: left bottom;
+//
+//    /* On screens that are 992px or less, set the background color to blue */
+//    @media screen and (max-width: 992px) {
+//      height: 20rem;
+//    }
+//
+//    /* On screens that are 600px or less, set the background color to olive */
+//    @media screen and (max-width: 600px) {
+//      height: 14rem;
+//    }
+
+//    img {
+//      height: 100%;
+//      width: 100%;
+//    }
+//  }
+//
+//}
