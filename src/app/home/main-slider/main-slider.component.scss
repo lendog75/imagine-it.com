@@ -5,7 +5,7 @@ div.main-slider {
 
   div.hero {
     height: 20rem;
-    background: url('../../../assets/img/other/lenny3.small.jpg') center;
+    background: url('../../../assets/img/other/lenny3.medium.jpg') center;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 
@@ -15,8 +15,8 @@ div.main-slider {
     }
 
     //On screens that are 1024px or less, set the background color to blue
-    @media only screen and (min-width: 1024px) {
-      background: url('../../../assets/img/other/lenny3.medium.jpg') center;
+    @media only screen and (min-width: 1280px) {
+      background: url('../../../assets/img/other/lenny3.jpg') center;
       height: 50rem !important;
     }
 
@@ -51,7 +51,7 @@ div.main-slider {
     }
 
     //On screens that are 1024px or less, set the background color to blue
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1280px) {
       h2 {
         font-size: 4rem !important;
       }
