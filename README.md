@@ -20,7 +20,7 @@ For this I first created a custom Jenkins image to run.  This image is based on 
 - Build project for prod
 - Deploy to AWS
 
-###Angular, Firebase Hosting, and Firebase Realtime Database
+### Angular, Firebase Hosting, and Firebase Realtime Database
 We are pulling content by key from a Firebase Realtime Database using AngularFire2
 and Angular 7.  This once again showcases a neat feature, since the Realtime Database and angularFire2 provide a socket connection
 and there for realtime data and no need for refresh.
