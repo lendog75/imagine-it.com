@@ -31,8 +31,8 @@ section {
     }
   }
 
-  // On screens that are 800px or less
-  @media only screen and (min-width: 768px) {
+  // On screens that are 581 or more
+  @media only screen and (min-width: 581px) {
     .card {
       text-align: center !important;
       h5 > i {
@@ -44,12 +44,12 @@ section {
 
   .fa-res {
     font-size: 2rem;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 580px) {
       font-size: 2rem;
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 580px) {
     .card {
       max-width: 20rem;
       margin-right: auto;
