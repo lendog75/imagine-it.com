@@ -1,39 +1,39 @@
 # ImagineIt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Welcome to the Imagine-It corp website source repository.
 
 
-## Deployment
-ng build --prod --base-href "http://lennyreed.com/imagine-it.com/"
-ngh --dir dist/imagine-it
-then prob need to redo custome name to www.imagine-it.com
+## Tech Stack
+
+There are many interesting technologies used to develop, build, deploy and host it.  While some were not absolutly needed to
+produce the official site I thought it would be helpful to setup a full end to end app instead of just a bit on HTML/CSS/ and Vanella JS.
+
+For example, I am aware that I did not need Jenkins to deploy to Firebase Hosting.  Doing so is both an exercise and evidence of
+some of DevOps skills.  I even went a step farther and hosted Jenkins on my home server inside a Docker container.
+
+For this I first created a custom Jenkins image to run.  This image is based on the officlia Jenkins image
+(jenkins/jenkins available on DockerHub).  From here I configured Jenkins using a pipeline build and some GitHub hooks to:
+- Checkout Source
+- Install Dependencies
+- Lint Code
+- Test Code using Jasmine and Karma
+- Build project for prod
+- Deploy to AWS
+
+###Angular, Firebase Hosting, and Firebase Realtime Database
+We are pulling content by key from a Firebase Realtime Database using AngularFire2
+and Angular 7.  This once again showcases a neat feature, since the Realtime Database and angularFire2 provide a socket connection
+and there for realtime data and no need for refresh.
+
+We are also using Google for OAuth.
+
+### Angular, Bootstrap 4, HTML5/CSS3, FontAwesome, Typescript
+As far as the app itself goes it is based on HTML5. CSS3, Bootstrap 4, FontAwesome, Typescript, and of course Angular.
+
+
+### Github
+Lorem ipsum dolor amet readymade leggings pickled enamel pin succulents.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-Imagine-it.com
-google-site-verification=mHUq3LTvo2OKq_JMxnyvT0kGWVPf088WuMtQKXkyjlY
-
-
+To learn more please contact admin@imagine-it.com
