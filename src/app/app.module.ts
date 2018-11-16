@@ -12,6 +12,8 @@ import { ServicesComponent } from './services/services.component';
 
 import { SharedModule } from './shared/shared.module';
 import { TechStackComponent } from './tech-stack/tech-stack.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
     declarations: [
@@ -29,6 +31,7 @@ import { TechStackComponent } from './tech-stack/tech-stack.component';
         BlogModule,
         AboutModule,
         AppRoutingModule,
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     ],
     providers: [],
     bootstrap: [AppComponent]
