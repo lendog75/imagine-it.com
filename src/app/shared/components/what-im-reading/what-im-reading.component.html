@@ -1,60 +1,73 @@
-<section class="component" style="padding: 2rem">
+<section class="component" style="padding: 2rem" *ngIf="readingList.length">
     <h4>What I'm Reading</h4>
 
     <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src="/assets/img/other/post-cap.angular7.jpg" alt="Card image cap">
+        <div class="card" *ngFor="let link of readingList">
+            <img class="card-img-top" [src]="link.image" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Version 7 of Angular</h5>
+                <h5 class="card-title">{{ link.title }}</h5>
                 <p class="card-text">
-                    The 7.0.0 release of Angular is here! This is a major release spanning the
-                    entire platform, including the core framework, Angular Material, and the CLI...
+                   {{ link.description }}
                 </p>
-                <a href="https://blog.angular.io/version-7-of-angular-cli-prompts-virtual-scroll-drag-and-drop-and-more-c594e22e7b8c"
+                <a [href]="link.url"
                    target="_blank" class="btn btn-primary">Read More...</a>
             </div>
         </div>
 
-        <div class="card">
-            <img class="card-img-top" src="/assets/img/other/post-cap.connection-aware-components.jpg" alt="POST: Cap Image">
-            <div class="card-body">
-                <h5 class="card-title">Connection-Aware Components</h5>
-                <p class="card-text">
-                    The navigator.connection object contains a read-only property named effectiveType,
-                    which returns the effective connection type. That type is...
-                </p>
-                <a href="https://netbasal.com/connection-aware-components-in-angular-3a66bb0bab6f" target="_blank"
-                   class="btn btn-primary">Read More...</a>
-            </div>
-        </div>
 
-        <div class="card d-none d-md-block">
-            <img class="card-img-top" src="/assets/img/other/ux-animations-practices.gif" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">The ultimate guide to proper use of animation in UX</h5>
-                <p class="card-text">
-                    By: Taras Skytskyi
-                    Nowadays it’s hard to impress or even surprise with an interface animation. It shows interactions...
-                </p>
-                <a href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9"
-                   target="_blank" class="btn btn-primary">Read More...</a>
-            </div>
-        </div>
+        <!--<div class="card">-->
+            <!--<img class="card-img-top" src="/assets/img/other/post-cap.angular7.jpg" alt="Card image cap">-->
+            <!--<div class="card-body">-->
+                <!--<h5 class="card-title">Version 7 of Angular</h5>-->
+                <!--<p class="card-text">-->
+                    <!--The 7.0.0 release of Angular is here! This is a major release spanning the-->
+                    <!--entire platform, including the core framework, Angular Material, and the CLI...-->
+                <!--</p>-->
+                <!--<a href="https://blog.angular.io/version-7-of-angular-cli-prompts-virtual-scroll-drag-and-drop-and-more-c594e22e7b8c"-->
+                   <!--target="_blank" class="btn btn-primary">Read More...</a>-->
+            <!--</div>-->
+        <!--</div>-->
 
-        <div class="card d-none d-lg-block">
-            <img class="card-img-top" src="/assets/img/other/firebase-lessons.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Lessons from a small Firebase project</h5>
-                <p class="card-text">
-                    By: James Beswick
-                    After hearing all the good things about Google Firebase for a while, finally I got to use it last
-                    week.
-                    I’m building a really simple solution...
-                </p>
-                <a href="https://itnext.io/lessons-from-a-long-week-with-firebase-b433ce8ee49e" target="_blank"
-                   class="btn btn-primary">Read More...</a>
-            </div>
-        </div>
+        <!--<div class="card">-->
+            <!--<img class="card-img-top" src="/assets/img/other/post-cap.connection-aware-components.jpg" alt="POST: Cap Image">-->
+            <!--<div class="card-body">-->
+                <!--<h5 class="card-title">Connection-Aware Components</h5>-->
+                <!--<p class="card-text">-->
+                    <!--The navigator.connection object contains a read-only property named effectiveType,-->
+                    <!--which returns the effective connection type. That type is...-->
+                <!--</p>-->
+                <!--<a href="https://netbasal.com/connection-aware-components-in-angular-3a66bb0bab6f" target="_blank"-->
+                   <!--class="btn btn-primary">Read More...</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="card d-none d-md-block">-->
+            <!--<img class="card-img-top" src="/assets/img/other/ux-animations-practices.gif" alt="Card image cap">-->
+            <!--<div class="card-body">-->
+                <!--<h5 class="card-title">The ultimate guide to proper use of animation in UX</h5>-->
+                <!--<p class="card-text">-->
+                    <!--By: Taras Skytskyi-->
+                    <!--Nowadays it’s hard to impress or even surprise with an interface animation. It shows interactions...-->
+                <!--</p>-->
+                <!--<a href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9"-->
+                   <!--target="_blank" class="btn btn-primary">Read More...</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="card d-none d-lg-block">-->
+            <!--<img class="card-img-top" src="/assets/img/other/firebase-lessons.jpg" alt="Card image cap">-->
+            <!--<div class="card-body">-->
+                <!--<h5 class="card-title">Lessons from a small Firebase project</h5>-->
+                <!--<p class="card-text">-->
+                    <!--By: James Beswick-->
+                    <!--After hearing all the good things about Google Firebase for a while, finally I got to use it last-->
+                    <!--week.-->
+                    <!--I’m building a really simple solution...-->
+                <!--</p>-->
+                <!--<a href="https://itnext.io/lessons-from-a-long-week-with-firebase-b433ce8ee49e" target="_blank"-->
+                   <!--class="btn btn-primary">Read More...</a>-->
+            <!--</div>-->
+        <!--</div>-->
 
     </div>
 </section>

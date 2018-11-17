@@ -5,7 +5,7 @@ import { rollInTransition } from '../shared/animations';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations:[rollInTransition]
+  animations: [rollInTransition]
 })
 export class HomeComponent implements OnInit {
 

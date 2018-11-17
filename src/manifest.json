@@ -1,6 +1,8 @@
 {
   "name": "Imagine-It",
   "short_name": "Imagine-It",
+  "author": "Lenny Reed",
+  "description": "Imagine-It corp website",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
